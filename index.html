@@ -17,7 +17,7 @@
                     async def foo():
                       while True:
                         await asyncio.sleep(1)
-                        output = now()
+                        output = now(1)
                         Element("outputDiv2").write(output)
 
                         out3 = Element("outputDiv3")
